@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 export default function Footer() {
     return (
         <div style={{
@@ -16,10 +14,11 @@ export default function Footer() {
                 flexDirection: "column",
                 marginTop: "15px",
                 marginLeft: "20px",
-                gap: "5px"
+                gap: "5px",
+                alignItems:"flex-start"
             }}>
             <p style={{fontSize:"12px",fontWeight:"bold",marginBottom:"-1px"}}> ศูนย์ดูแลลูกค้า</p>
-            < a href="https://www.google.co.th/" > ศูนย์ช่วยเหลือ</a>
+            <a href="https://www.google.co.th/" >ศูนย์ช่วยเหลือ</a>
             <a href="https://www.google.co.th/">การสั่งซื้อสินค้า</a>
             <a href="https://www.google.co.th/">การชำระเงิน</a>
             <a href="https://www.google.co.th/">ติดต่อเจ้าหน้าที่</a>
@@ -27,9 +26,11 @@ export default function Footer() {
             <div style={{
                 display: "flex",
                 flexDirection: "column",
+                alignIitems: "flex-start",
                 marginTop: "15px",
                 marginLeft: "20px",
-                gap: "5px"
+                gap: "5px",
+                alignItems:"flex-start"
             }}>
             <p style={{fontSize:"12px",fontWeight:"bold",marginBottom:"-1px"}}> XX Shop</p>
             < a href="https://www.google.co.th/" > เกี่ยวกับเรา</a>

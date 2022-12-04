@@ -16,10 +16,7 @@ export default function NavScroll() {
           <a href="https://www.google.co.th/">สมัครสมาชิก</a>
         </div>
         <div className="nav-search">
-          <div>
-            <img className="logo" src="https://images.freeimages.com/images/large-previews/d85/eccommerce-concept-1-1057097.jpg"></img>
-          </div>
-          <div className="nav-form">
+          <img className="logo" src="https://images.freeimages.com/images/large-previews/d85/eccommerce-concept-1-1057097.jpg"></img>
             <form>
               <label>
                 <input className="input-form" type="text" name="search" placeholder="ค้นหาสินค้า" />
@@ -41,7 +38,6 @@ export default function NavScroll() {
                 <BsSearch size={20} />
               </button>
             </form>
-          </div>
           <div
             style={{
               display: "flex",

@@ -17,7 +17,7 @@ export default function Product(props) {
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text className="cardtext-main">
-                        20.00 บาท
+                        ฿ {props.price}
                     </Card.Text>
                     <Card.Text className="cardtext">
                         30.00 บาท

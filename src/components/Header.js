@@ -12,7 +12,7 @@ export default function Header() {
     ]
 
     return (
-        <div className="header">
+        <div className="header-slide">
         
             <Slide arrows={false} autoplay={true} canSwipe ={true} indicators={true}>
                 {pictures.map((pic, idx) => (

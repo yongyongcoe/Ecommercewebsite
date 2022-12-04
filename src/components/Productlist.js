@@ -8,7 +8,7 @@ export default function Productlist(props) {
     
     return (
         <div style={{
-            width:"1000px",
+            maxwidth:"600px",
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
@@ -20,7 +20,7 @@ export default function Productlist(props) {
 
         }}>
             {productlist.map((item) =>
-                <Product name={item.name} />
+                <Product name={item.name} price={item.price}/>
             )}
         </div>
 
