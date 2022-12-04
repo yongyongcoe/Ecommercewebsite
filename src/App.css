@@ -114,6 +114,7 @@ label{
 }
 
 .main-header{
+ 
   position:-webkit-sticky;
   position:sticky; 
   top:0;
@@ -139,6 +140,12 @@ label{
   height: 50px;
   margin-left: 5px;
 }
+}
 
-
+.flashsale{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding:25px;
+  
 }
