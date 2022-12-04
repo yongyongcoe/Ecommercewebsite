@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react"
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
+
 import './Header.css'
 
 export default function Header() {
@@ -12,6 +13,7 @@ export default function Header() {
 
     return (
         <div className="header">
+        
             <Slide arrows={false} autoplay={true} canSwipe ={true} indicators={true}>
                 {pictures.map((pic, idx) => (
                     <img
